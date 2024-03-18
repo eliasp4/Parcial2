@@ -15,7 +15,7 @@ public class SistemaGestionEmpleados {
         empleados.añadirEmpleado(pedro);
 
       
-        System.out.print("Introduzca el porcentaje de aumento de salario: ");
+        System.out.print(TextoConsola.INTRODUZCA_PORCENTAJE_AUMENTO_SALARIO);
         double porcentaje = scanner.nextDouble();
 
         empleados.aumentarSalario(porcentaje);
